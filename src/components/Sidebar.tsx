@@ -93,6 +93,7 @@ const Sidebar = () => {
         },
       ],
     },
+    { href: '/settings', label: 'Settings', icon: <CrmIcon /> },
   ], []);
 
   // Effect to automatically open the parent item of the active sub-item on page load
